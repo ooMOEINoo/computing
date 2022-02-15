@@ -1,0 +1,15 @@
+<form action="/test" method="get">
+  <label for="count-equations">تعداد معادلات را وارد نمایید (2 - 9):</label>
+  <input
+    data-count="1"
+    class="input-num"
+    type="number"
+    name="countEquations"
+    id="count-equations"
+    max="9"
+    min="2"
+    value="<%= value %>"
+    required
+  />
+  <input type="submit" value="تایید" class="input-submit" />
+</form>

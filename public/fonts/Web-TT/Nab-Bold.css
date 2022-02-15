@@ -1,0 +1,11 @@
+/* Webfont: NaB-Bold */@font-face {
+    font-family: 'NaB';
+    src: url('Nab-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Nab-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Nab-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Nab-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

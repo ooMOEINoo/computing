@@ -1,0 +1,12 @@
+<% for( let i = 0; i < countEquations; i++ ) { %>
+  <% for( let j = 0; j < countEquations; j++ ) { %>
+    <input
+      class="<%= num_class %>"
+      type="text"
+      name="<%= i %>"
+      id="<%= i %> "
+      value="0"
+    />
+  <% } %>
+  <br>
+<% } %>
